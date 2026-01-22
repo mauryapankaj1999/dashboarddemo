@@ -13,7 +13,7 @@ export default function MainLayout({ children }) {
       </Sider>
 
       <Layout>
-        <Content style={{ padding: 20, background: "#f5f6fa" }}>
+        <Content className="wraperdashboard" style={{  }}>
           {children}
         </Content>
       </Layout>

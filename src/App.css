@@ -285,7 +285,6 @@ padding-bottom: 20px;
 .statustracker .avtarimg {
     display: flex;
     gap: 10px;
-    /* align-items: center; */
 }
 .statustracker .avtarimg h4{
     font-size: 12px;
@@ -410,7 +409,7 @@ padding-bottom: 20px;
 }
 
 .teamproject .avatarlist li {
-  margin-left: -8px; /* 👈 overlap */
+  margin-left: -8px; 
 }
 
 .teamproject .avatarlist li:first-child {
@@ -422,7 +421,7 @@ padding-bottom: 20px;
   height: 25px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #fff; /* white border */
+  border: 2px solid #fff; 
   background: #fff;
 }
 
@@ -460,7 +459,6 @@ padding-bottom: 20px;
 }
 
 .notes-card {
-  /* background: #fafaf9; */
   border-radius: 12px;
   padding: 14px;
 }
@@ -530,7 +528,6 @@ padding-bottom: 20px;
 
 
 
-/* Header */
 
 .calendar-header h3 {
   font-size: 16px;
@@ -547,7 +544,6 @@ padding-bottom: 20px;
   font-size: 16px;
 }
 
-/* Days Row */
 .days-row {
   display: flex;
   justify-content: space-between;
@@ -588,7 +584,6 @@ padding-bottom: 20px;
   margin-top: 4px;
 }
 
-/* Active Date */
 .day-box.active {
   border: 2px solid #22c55e;
   background: #eef2ff;
@@ -661,7 +656,6 @@ padding-bottom: 20px;
   max-width: 360px;
 }
 
-/* Header */
 .card-top {
   display: flex;
   justify-content: space-between;
@@ -687,7 +681,6 @@ padding-bottom: 20px;
   cursor: pointer;
 }
 
-/* Bottom */
 .card-bottom {
   display: flex;
   justify-content: space-between;
@@ -695,7 +688,6 @@ padding-bottom: 20px;
   margin-top: 16px;
 }
 
-/* Avatars */
 .avatars {
   display: flex;
   align-items: center;
@@ -737,7 +729,6 @@ padding-bottom: 20px;
   color: #1d4ed8;
 }
 
-/* Base card */
 .meeting-card {
   padding: 16px;
   border-radius: 20px;
@@ -745,7 +736,6 @@ padding-bottom: 20px;
   border: 1px solid transparent;
 }
 
-/* Blue */
 .meeting-card.blue {
   background: #eff6ff;
   border-color: #dbeafe;
@@ -754,7 +744,6 @@ padding-bottom: 20px;
 .meeting-card.blue .time { color: rgba(37, 99, 235, 0.8); }
 .meeting-card.blue .tag { background: #dbeafe; color: #1d4ed8; }
 
-/* Yellow */
 .meeting-card.yellow {
   background: #fef3c7;
   border-color: #fde68a;
@@ -772,7 +761,6 @@ padding-bottom: 20px;
 .meeting-card.purple .time { color: #7c3aed; }
 .meeting-card.purple .tag { background: #ddd6fe; color: #5b21b6; }
 
-/* Green */
 .meeting-card.green {
   background: #ecfdf5;
   border-color: #a7f3d0;
@@ -781,7 +769,6 @@ padding-bottom: 20px;
 .meeting-card.green .time { color: #047857; }
 .meeting-card.green .tag { background: #a7f3d0; color: #065f46; }
 
-/* Pink */
 .meeting-card.pink {
   background: #fdf2f8;
   border-color: #fbcfe8;
@@ -794,9 +781,26 @@ padding-bottom: 20px;
       position: fixed !important;
      top: 0;
      left: 0;
-     /* height: 100vh; */
      overflow-y: auto;
      z-index: 1000;
    }
 
+ }
+.wraperdashboard{
+  padding: 20px;
+   background-color: #f5f6fa;
+ }
+ @media(max-width:768px){
+   .wraperdashboard{
+     padding: 15px 0px !important;
+   }
+   .socalicon{
+    display: none !important;
+   }
+   .headerdashboard h4{
+    margin-bottom: 0;
+   }
+   .headerdashboard h6{
+    font-size: 20px !important;
+   }
  }
