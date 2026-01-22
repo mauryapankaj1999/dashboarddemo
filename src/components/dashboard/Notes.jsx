@@ -6,7 +6,7 @@ export default function Notes() {
     const notesData = [
   {
     id: 1,
-    status: "pending", // pending | done
+    status: "pending", 
     title: "Phoenix footer section.",
     description: "Adding google play buttons.",
     tags: ["Today", "Waiting Feedback"],
@@ -61,7 +61,6 @@ export default function Notes() {
         </div>
       ))}
 
-      {/* New Note Button */}
       <button className="new-note-btn">
         <Edit2 size={16} />
         New Note

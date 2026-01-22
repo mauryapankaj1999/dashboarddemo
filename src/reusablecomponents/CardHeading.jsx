@@ -11,19 +11,13 @@ export default function CardHeading(
 }
 ) {
   return (
-    // <div className='cardheadin'>
-    //     <div className="headingcard"><Timer />{title}</div>
-    //     <div className="seebtn">See All <ChevronRight />
-    //         </div>
-    // </div>
+ 
      <div className="cardheadin">
-      {/* Left */}
       <div className="headingcard">
         {icon && <span className="heading-icon">{icon}</span>}
         <span>{title}</span>
       </div>
 
-      {/* Right */}
       {actionText && (
         <div className="seebtn" onClick={onActionClick}>
           {actionText}

@@ -126,7 +126,6 @@ export default function Sidebar() {
         <div className="logosidebarlabel">H</div>
         HR Management
       </div>
-      {/* <hr className="hrline" /> */}
       <Menu
         mode="inline"
         items={items}

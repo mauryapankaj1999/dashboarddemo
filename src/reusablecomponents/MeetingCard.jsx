@@ -31,22 +31,7 @@ const meetingsData = [
     bgClass: "purple",
     users: 6,
   },
-  // {
-  //   id: 4,
-  //   title: "Meeting with Sarah Lee",
-  //   time: "11:00 AM - 12:00 PM (UTC)",
-  //   tag: "Design",
-  //   bgClass: "green",
-  //   users: 3,
-  // },
-  // {
-  //   id: 5,
-  //   title: "Meeting with David Miller",
-  //   time: "2:00 PM - 3:00 PM (UTC)",
-  //   tag: "Engineering",
-  //   bgClass: "pink",
-  //   users: 4,
-  // },
+ 
 ];
 
 export default function MeetingCard() {
