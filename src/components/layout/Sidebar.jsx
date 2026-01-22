@@ -138,11 +138,9 @@ export default function Sidebar() {
       />
 
       <div
+      className="sidebarboomfixd"
         style={{
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-          right: 0,
+          
         }}
       >
         <Menu mode="inline" selectable={false}>

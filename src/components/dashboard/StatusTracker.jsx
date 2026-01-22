@@ -28,6 +28,30 @@ export default function StatusTracker() {
       time: "8m",
       emoji: "🍎",
     },
+    {
+      id: 1,
+      name: "Sophia Williams",
+      role: "Horizon Shift",
+      avatar: "/avatars/sophia.png",
+      time: "25m",
+      emoji: "☕",
+    },
+    {
+      id: 2,
+      name: "Arthur Gauthier",
+      role: "Google UX Course",
+      avatar: "/avatars/arthur.png",
+      time: "12m",
+      emoji: "🍔",
+    },
+    {
+      id: 3,
+      name: "Emma Wright",
+      role: "Phoenix",
+      avatar: "/avatars/emma.png",
+      time: "8m",
+      emoji: "🍎",
+    },
   ];
   return (
     <>

@@ -18,6 +18,13 @@ export default function Notes() {
     description: "Researchingn to understand its function.",
     tags: ["Today", "Waiting Feedback"],
   },
+  {
+    id: 2,
+    status: "done",
+    title: "Phoenix header section.",
+    description: "Researchingn to understand its function.",
+    tags: ["Today", "Waiting Feedback"],
+  },
 ];
   return (
     <>
