@@ -42,7 +42,7 @@ export default function CurrentProject() {
 
         <div className="projectlead">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-6">
               <div className="projecmanage">
                 <h4>Project Manager</h4>
                 <div className="imgflex">
@@ -51,7 +51,7 @@ export default function CurrentProject() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-6">
               <div className="projecmanage">
                 <h4>Design Lead</h4>
                 <div  className="imgflex">

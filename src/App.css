@@ -793,6 +793,16 @@ padding-bottom: 20px;
    background-color: #f5f6fa;
  }
  @media(max-width:768px){
+  .note-desc{
+    margin-bottom: 10px !important;
+    font-size: 10px;
+  }
+  .note-title{
+    font-size: 12px !important;
+  }
+.expand {
+  font-size: 12px;
+}
    .wraperdashboard{
      padding: 15px 0px !important;
    }
